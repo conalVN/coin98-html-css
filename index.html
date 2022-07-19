@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scrollHide">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,101 +12,143 @@
 </head>
 <body>
     <div class="app">
-        <!-- header -->
-        <header class="header">
-            <nav class="navbar">
-                <div class="navbar__logo">
-                    <a href="#" class="navbar__logo-link">
-                        <img src="./image/logo.svg" alt="" class="navbar__logo-img">
-                    </a>
-                </div>
-                <div class="navbar__list">
-                    <div class="list-default">
-                        <ul class="default__menu">
-                            <li class="default__menu-item">
-                                <a href="#" class="default__menu-link">
-                                    <i class='bx bx-hive'></i>  
-                                    Portal
-                                </a>
-                            </li>
-                            <li class="default__menu-item">
-                                <a href="#" class="default__menu-link active">
-                                    <i class='bx bx-bowl-hot'></i>
-                                    Hot News
-                                </a>
-                            </li>
-                            <li class="default__menu-item">
-                                <a href="#" class="default__menu-link">
-                                    <i class='bx bx-news'></i>
-                                    Newest
-                                </a>
-                            </li>
-                            <li class="default__menu-item">
-                                <a href="#" class="default__menu-link">
-                                    <i class='bx bxs-flag-alt' ></i>
-                                    Featured
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="list-scroll">
-                        <i class="icon-left fa-solid fa-chevron-left"></i>
-                        <ul class="scroll__menu">
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Coin98 Supper App
-                                </a>
-                            </li>
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Kiếm Tiền Cùng Coin98
-                                </a>
-                            </li>
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Coin98 Finace
-                                </a>
-                            </li>
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Người Mới
-                                </a>
-                            </li>
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Thuật Ngữ Cơ Bản
-                                </a>
-                            </li>
-                            <li class="scroll__menu-item">
-                                <a href="#" class="scroll__menu-link">
-                                    Kiến Thức Crypto
-                                </a>
-                            </li>
-                        </ul>
-                        <i class="icon-right fa-solid fa-chevron-right"></i>
-                    </div>
-                </div>
-                <div class="navbar__right">
-                    <div class="navbar__search">
-                        <i class='icon-search bx bx-search'></i>
-                    </div>
-                    <a href="#" class="btn btn-primary">
-                        Đăng nhập
-                    </a>
-                    <div class="navbar__profile">
-                        <i class="icon-user fa-regular fa-user"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
         <!-- sidebar -->
-        <section class="sidebar">
+        <aside class="sidebar">
+            <div class="sidebar__list">
+                <ul class="sidebar__menu line-bottom">
+                    <li class="sidebar__menu-item">
+                        <a href="" class="sidebar__menu-link">
+                            <i class='bx bx-align-left'></i>
+                        </a>
+                    </li>
+                    <li class="sidebar__menu-item ">
+                        <span class="tooltipText">Discover</span>
+                        <a href="" class="sidebar__menu-link icon-active">
+                            <i class='bx bx-disc'></i>
+                        </a>
+                    </li>
+                    <li class="sidebar__menu-item">
+                        <span class="tooltipText">My List</span>
+                        <a href="" class="sidebar__menu-link">
+                            <i class='bx bx-collection'></i>
+                        </a>
+                    </li>
+                </ul>
 
-        </section>
+                <ul class="sidebar__submenu">
+                    <li class="sidebar__submenu-item">
+                        <span class="tooltipText">Channels</span>
+                        <a href="" class="sidebar__submenu-link">
+                            <i class='bx bx-cast'></i>
+                        </a>
+                    </li>
+                    <li class="sidebar__submenu-item">
+                        <span class="tooltipText">Coin98 Insights</span>
+                        <a href="" class="sidebar__submenu-link">
+                            <img src="./assets/image/iconCoin98.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar__theme">
+                <i class='bx bx-moon'></i>
+            </div>
+        </aside>
 
         <main class="container">
+            <header class="header">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <a href="#" class="navbar__logo-link">
+                            <img src="./assets/image/logo.svg" alt="" class="navbar__logo-img">
+                        </a>
+                    </div>
 
+                    <div class="navbar__list">
+                        <div class="navbar__list-wrapper">
+                            <div class="list-default">
+                                <ul class="default__menu">
+                                    <li class="default__menu-item">
+                                        <a href="#" class="default__menu-link">
+                                            <i class='bx bx-hive'></i>  
+                                            Portal
+                                        </a>
+                                    </li>
+                                    <li class="default__menu-item active">
+                                        <a href="#" class="default__menu-link">
+                                            <i class='bx bx-bowl-hot'></i>
+                                            Hot News
+                                        </a>
+                                    </li>
+                                    <li class="default__menu-item">
+                                        <a href="#" class="default__menu-link">
+                                            <i class='bx bx-news'></i>
+                                            Newest
+                                        </a>
+                                    </li>
+                                    <li class="default__menu-item">
+                                        <a href="#" class="default__menu-link">
+                                            <i class='bx bxs-flag-alt' ></i>
+                                            Featured
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-scroll">
+                                <i class="icon-left fa-solid fa-chevron-left"></i>
+                                <ul class="scroll__menu">
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Coin98 Supper App
+                                        </a>
+                                    </li>
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Kiếm Tiền Cùng Coin98
+                                        </a>
+                                    </li>
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Coin98 Finace
+                                        </a>
+                                    </li>
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Người Mới
+                                        </a>
+                                    </li>
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Thuật Ngữ Cơ Bản
+                                        </a>
+                                    </li>
+                                    <li class="scroll__menu-item">
+                                        <a href="#" class="scroll__menu-link">
+                                            Kiến Thức Crypto
+                                        </a>
+                                    </li>
+                                </ul>
+                                <i class="icon-right fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar__right">
+                        <div class="navbar__search">
+                            <i class='icon-search bx bx-search'></i>
+                        </div>
+                        <div class="navbar__profile">
+                            <a href="#" class="btn btn-primary">
+                                Đăng nhập
+                            </a>
+                            <i class="icon-user fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                </nav>
+            </header>
         </main>
     </div>
+
+    <script src="./assets/app.js"></script>
 </body>
 </html>
