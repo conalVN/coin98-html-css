@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url(/assets/fonts/IBMPlexSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url(/assets/fonts/IBMPlexSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url(/assets/fonts/IBMPlexSans-Regular.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url(/assets/fonts/IBMPlexSans-SemiBold.ttf);
+    font-weight: 700;
+}
+
+:root {
+    --btn-primary: #b69f58;
+    --btn-primary-hover: #d4b155;
+    --text-color: #d9d9d9;
+    --text-color-hover: #cda439;
+    --background-color: #11100f;
+    --background-section: #252423;
+    --background-color-icon: #302f2d;
+    --icon-color: #ededed;
+    --white-color: #fff;
+    --black-color: #000;
+    --height-header: 5.8rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* active */
+.active {
+    color: var(--text-color-hover) !important;
+    border-bottom: 2px solid var(--text-color-hover) !important;
+}
+
+/* Button */
+.btn{
+    text-align: center;
+    width: max-content;
+    height: 3.6rem;
+    padding: 0 1.4rem;
+}
+
+/* Line */
+.item-line {
+    content: "";
+    position: absolute;
+    padding-right: 1.6rem;
+    border-right: 2px solid var(--text-color);
+}
