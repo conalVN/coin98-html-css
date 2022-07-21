@@ -60,6 +60,11 @@ img {
     border-radius: 10px;
 }
 
+/* scroll hide */
+.scrollHide {
+    scrollbar-width: none !important;
+}
+
 /* Active */
 .icon-active {
     color: var(--text-color-hover) !important;

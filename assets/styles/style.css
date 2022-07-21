@@ -5,6 +5,10 @@ html {
     font-family: 'IBMPlexSans', sans-serif;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -121,7 +125,8 @@ body {
     right: 0;
     height: var(--height-header);
     z-index: 2;
-    box-shadow: 0 2px 2.4rem 0 rgba(0,0,0,.1);;
+    box-shadow: 0 2px 2.4rem 0 rgba(0,0,0,.1);
+    background-color: var(--background-section);
 }
 
 .navbar {
@@ -460,6 +465,57 @@ body {
     -webkit-box-orient: vertical;
 }
 
+/* Slider-post */
+.slider-post-wrapper {
+    width: 100%;
+}
 
+.slider-post-container {
+    padding: 0 2.4rem;
+}
+
+.slider-post-list {
+    width: 100%;
+}
+
+.slider-post-item {
+    position: relative;
+    padding-right: 2.4rem;
+}
+
+.slider-post-img {
+    width: 100%;
+}
+
+.slider-post-img img {
+    max-width: 100%;
+    aspect-ratio: 7/5.2;
+}
+
+.slider-post-name {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.slider-post-icon {
+    visibility: hidden;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.slider-post-icon i {
+    font-size: 1.8rem;
+    margin-right: .5rem;
+}
+
+.slider-post-icon span {
+    margin-right: 1rem;
+    font-size: 1.6rem;
+}
 
 
